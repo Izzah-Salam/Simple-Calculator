@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #8be0eb;
+}
+
+.title {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: "Ingrid Darling", cursive;
+	font-size: 40px;
+	margin: 20px 0;
+}
+
+.container {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.box {
+	background-color: black;
+	color: white;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.screen {
+	margin-top: 10px;
+	width: 100%;
+	background-color: rgb(255, 241, 241);
+	padding: 20px 10px;
+	font-size: 25px;
+	border: none;
+	outline: none;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	margin: 20px 0;
+}
+.number,
+.operator,
+.decimal,
+.clear,
+.equal {
+	font-size: 25px;
+	padding: 10px 20px;
+	background-color: rgb(210, 222, 235);
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.equal {
+	width: 100%;
+	background-color: orangered;
+	font-size: 30px;
+	color: white;
+	padding: 4px 20px;
+}
+.clear {
+	background-color: rgb(211, 55, 20);
+	color: white;
+}
